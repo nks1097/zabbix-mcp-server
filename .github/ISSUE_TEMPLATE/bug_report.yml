@@ -1,0 +1,29 @@
+name: Relatório de Bug
+description: Crie um relatório para nos ajudar a identificar e corrigir falhas
+title: "[BUG]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: Obrigado por relatar um problema no Zabbix MCP Server!
+  - type: textarea
+    id: descricao
+    attributes:
+      label: Descrição do Problema
+      description: Explique de forma clara o que ocorreu de errado.
+    validations:
+      required: true
+  - type: input
+    id: versao_zabbix
+    attributes:
+      label: Versão do Zabbix Server
+      placeholder: ex: 7.4.15, 7.0 LTS, 6.4, 6.0 LTS
+    validations:
+      required: true
+  - type: textarea
+    id: passos_reproducao
+    attributes:
+      label: Passos para Reproduzir
+      description: Quais comandos ou ferramentas MCP foram executados?
+    validations:
+      required: true

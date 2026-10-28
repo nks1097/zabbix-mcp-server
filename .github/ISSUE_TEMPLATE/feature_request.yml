@@ -1,0 +1,12 @@
+name: Sugestão de Melhoria ou Nova Funcionalidade
+description: Proponha uma nova ideia ou aprimoramento para o Zabbix MCP Server
+title: "[FEAT]: "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: sugestao
+    attributes:
+      label: Descrição da Sugestão
+      description: Como essa funcionalidade ajudará equipes de monitoramento e agentes de IA?
+    validations:
+      required: true

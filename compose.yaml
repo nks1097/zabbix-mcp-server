@@ -1,0 +1,19 @@
+services:
+  zabbix-mcp:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: zabbix-mcp-server
+    restart: unless-stopped
+    environment:
+      - ZABBIX_URL=${ZABBIX_URL:-http://192.168.0.107:8080/api_jsonrpc.php}
+      - ZABBIX_TOKEN=${ZABBIX_TOKEN}
+      - ZABBIX_MCP_MODE=${ZABBIX_MCP_MODE:-somente_leitura}
+      - ZABBIX_REQUIRE_APPROVAL_DESTRUCTIVE=${ZABBIX_REQUIRE_APPROVAL_DESTRUCTIVE:-true}
+      - ZABBIX_TIMEOUT=${ZABBIX_TIMEOUT:-30.0}
+    volumes:
+      - ./reports_output:/app/reports_output
+      - ./audit_mcp.jsonl:/app/audit_mcp.jsonl
+    command: ["--transport", "sse", "--host", "0.0.0.0", "--port", "8000"]
+    ports:
+      - "8000:8000"

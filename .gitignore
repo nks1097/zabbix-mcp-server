@@ -1,0 +1,38 @@
+# Ambientes virtuais e Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+env/
+
+# Configurações locais com segredos
+.env
+*.local.env
+
+# Saída de relatórios e logs locais de auditoria
+reports_output/
+*.pdf
+*.xlsx
+*.csv
+audit_mcp.jsonl
+*.log
+
+# Testes e cobertura
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Builds e pacotes
+dist/
+build/
+*.egg-info/
