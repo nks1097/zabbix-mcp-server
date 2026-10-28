@@ -151,3 +151,4 @@ Todas as 100 ferramentas possuem nomes estáveis em `snake_case`, validação co
 | 98 | `zabbix_previsualizar_alteracao` | Somente Leitura | Apresentar diff e impacto esperado antes de aplicar qualquer alteração. |
 | 99 | `zabbix_consultar_auditoria_mcp` | Somente Leitura | Consultar o histórico local de chamadas e comandos das ferramentas MCP. |
 | 100 | `zabbix_diagnosticar_ambiente` | Somente Leitura | Produzir diagnóstico holístico 360° da infraestrutura Zabbix. |
+

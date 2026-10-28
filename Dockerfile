@@ -36,3 +36,4 @@ ENV ZABBIX_AUDIT_LOG_PATH=/app/audit_mcp.jsonl
 # Padrão: STDIO para conexão com clientes MCP (Claude Desktop, Cursor, Antigravity, etc.)
 ENTRYPOINT ["zabbix-mcp"]
 CMD ["--transport", "stdio"]
+

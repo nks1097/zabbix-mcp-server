@@ -35,3 +35,4 @@ docker-build:
 
 docker-run:
 	docker compose up --build
+

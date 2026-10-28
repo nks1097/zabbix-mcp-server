@@ -23,3 +23,4 @@ O Zabbix MCP Server possui detecção automática de versão via `apiinfo.versio
    - A ferramenta `zabbix_gerar_grupos_templates` possui fallback transparente para `hostgroup` em versões anteriores.
 3. **Módulo de Alta Disponibilidade (`ha.get`):**
    - Disponível a partir do Zabbix 6.0 LTS.
+

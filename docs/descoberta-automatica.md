@@ -43,3 +43,4 @@ flowchart TD
   - Se os itens herdados dos templates estão ativados.
   - Se o primeiro ciclo de métricas começou a chegar (`lastclock > 0`).
   - Emite diagnóstico final com pendências e recomendações.
+

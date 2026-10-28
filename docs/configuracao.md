@@ -58,3 +58,4 @@ Todas as configurações do Zabbix MCP Server são controladas por variáveis de
   }
 }
 ```
+

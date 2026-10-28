@@ -26,3 +26,4 @@ Guia prático para solucionar os erros mais comuns na integração entre o MCP e
 ## 5. Erro: `Invalid parameter "/recent": a boolean is expected` (-32602)
 - **Causa:** Parâmetros booleanos no Zabbix 7.x exigem booleanos verdadeiros (`true` / `false` em JSON, `True` em Python), e não strings como `"true"`.
 - **Solução:** O cliente do `zabbix-mcp` já trata todos os parâmetros como tipos estritos Pydantic.
+

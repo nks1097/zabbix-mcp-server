@@ -83,3 +83,4 @@ def test_geracao_previa_onboarding():
     assert "Generic by SNMP" in preview.templates_propostos
     assert preview.token_aprovacao is not None
     assert preview.token_aprovacao.startswith("apr_")
+

@@ -70,3 +70,4 @@ def test_exportacao_csv_json_markdown(dummy_report_data, tmp_path):
     md = export_to_markdown(dummy_report_data)
     assert "# Relatório Executivo de Teste" in md
     assert "99.8%" in md
+

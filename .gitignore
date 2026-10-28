@@ -11,6 +11,7 @@ env/
 .env
 *.local.env
 push_to_github.py
+create_and_push.ps1
 
 # Saída de relatórios e logs locais de auditoria
 reports_output/

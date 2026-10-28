@@ -50,3 +50,4 @@ class ZabbixApprovalRequiredError(ZabbixError):
 class ZabbixVersionCompatibilityError(ZabbixError):
     """Método ou parâmetro não suportado pela versão atual do Zabbix."""
     pass
+

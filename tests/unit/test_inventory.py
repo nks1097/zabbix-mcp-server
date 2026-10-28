@@ -42,3 +42,4 @@ async def test_registro_no_servidor_mcp():
     registered_names = {t.name for t in registered_tools}
     expected_names = {fn.__name__ for fn in ALL_TOOLS}
     assert registered_names == expected_names, "Divergência entre ferramentas registradas e ferramentas esperadas."
+

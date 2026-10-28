@@ -9,3 +9,4 @@ Explique de forma clara as mudanças propostas neste Pull Request.
 - [ ] Executei `ruff check src tests` e não há violações de estilo.
 - [ ] Atualizei a documentação correspondente em `docs/` se aplicável.
 - [ ] Nenhuma credencial ou token real foi adicionado nos arquivos.
+

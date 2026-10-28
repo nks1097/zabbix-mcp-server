@@ -81,3 +81,4 @@ def test_validacao_cidr_seguranca():
     # Bloco excessivo (> 1024 IPs) proibido
     with pytest.raises(ZabbixValidationError):
         validate_cidr_or_ip("10.0.0.0/16")
+

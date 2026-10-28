@@ -19,3 +19,4 @@ Exemplos de comportamentos inaceitáveis:
 ## Responsabilidades e Aplicação
 
 Os mantenedores do projeto são responsáveis por esclarecer os padrões de comportamento aceitáveis e tomar medidas disciplinares justas e apropriadas em resposta a qualquer comportamento considerado inaceitável.
+

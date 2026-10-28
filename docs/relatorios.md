@@ -33,3 +33,4 @@ O Zabbix MCP Server possui um motor de relatórios nativo e desacoplado capaz de
 
 ### 3. CSV e JSON Estruturado
 - Ideal para ingestão em pipelines de dados, Data Lakes, Grafana ou análise via scripts Python/Pandas.
+

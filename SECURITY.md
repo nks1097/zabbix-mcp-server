@@ -28,3 +28,4 @@ Se você identificar uma vulnerabilidade de segurança neste projeto:
 4. **Proteção contra SSRF e Path Traversal:**
    - Varreduras de rede bloqueiam redes loopback (127.0.0.1) e sub-redes com mais de 1024 IPs.
    - Relatórios são gerados exclusivamente dentro do diretório configurado, com sanitização de nomes de arquivos.
+

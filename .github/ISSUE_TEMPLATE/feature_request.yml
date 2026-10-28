@@ -10,3 +10,4 @@ body:
       description: Como essa funcionalidade ajudará equipes de monitoramento e agentes de IA?
     validations:
       required: true
+

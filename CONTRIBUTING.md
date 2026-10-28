@@ -26,3 +26,4 @@ Agradecemos o interesse em contribuir com o **Zabbix MCP Server**!
    - Crie uma branch descritiva: `git checkout -b feature/suporte-zabbix-7-2` ou `fix/tratamento-timeout`.
    - Adicione testes unitários para qualquer nova funcionalidade ou correção.
    - Abra o Pull Request detalhando as alterações e referenciando a issue relacionada.
+

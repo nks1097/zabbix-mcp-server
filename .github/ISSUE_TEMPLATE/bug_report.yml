@@ -27,3 +27,4 @@ body:
       description: Quais comandos ou ferramentas MCP foram executados?
     validations:
       required: true
+

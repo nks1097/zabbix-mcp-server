@@ -52,3 +52,4 @@ async def test_live_diagnostico_completo():
     assert res.sucesso is True
     assert res.dados["saude_conexao"] == "operacional"
     assert res.dados["infraestrutura"]["total_hosts"] >= 1
+

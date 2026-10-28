@@ -67,3 +67,4 @@ zabbix-mcp --transport stdio
 ```bash
 zabbix-mcp --transport sse --host 0.0.0.0 --port 8000
 ```
+

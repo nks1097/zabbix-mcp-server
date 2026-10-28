@@ -45,3 +45,4 @@ Todas as chamadas MCP são registradas no arquivo JSON Lines configurado em `ZAB
 - Duração da execução em milissegundos.
 - Status de sucesso ou mensagem de erro.
 - IDs de recursos afetados.
+

@@ -55,3 +55,4 @@ graph TD
    - Estágios A a F: Descoberta controlada, fingerprinting, deduplicação com o inventário existente, prévia detalhada, cadastro em lote e verificação de coleta.
 5. **Motor de Relatórios Profissionais:**
    - Geração local de PDF (ReportLab com layout corporativo), Excel (openpyxl com múltiplas abas), CSV, JSON e Markdown.
+
