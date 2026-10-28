@@ -10,6 +10,7 @@ env/
 # Configurações locais com segredos
 .env
 *.local.env
+push_to_github.py
 
 # Saída de relatórios e logs locais de auditoria
 reports_output/
@@ -36,3 +37,4 @@ htmlcov/
 dist/
 build/
 *.egg-info/
+
