@@ -106,10 +106,10 @@ cp .env.example .env
 Edite o arquivo `.env` com os dados do seu Zabbix:
 ```ini
 # URL completa do endpoint JSON-RPC do Zabbix
-ZABBIX_URL=http://192.168.0.107:8080/api_jsonrpc.php
+ZABBIX_URL=http://SEU_IP:8080/api_jsonrpc.php
 
 # Token de API do Zabbix gerado no Passo 2
-ZABBIX_TOKEN=3752dc4ae3d95027e4ce06e1ed28b2ba57f4e7902357b7eb9e2dae109bf02d45
+ZABBIX_TOKEN=SEU_TOKEN
 
 # Modo de operação: 'somente_leitura', 'operacional' ou 'administrativo'
 ZABBIX_MCP_MODE=operacional
@@ -149,12 +149,12 @@ Adicione ao arquivo de configuração:
 {
   "mcpServers": {
     "zabbix": {
-      "command": "C:/Users/SEU_USUARIO/zabbix-mcp-server/.venv/Scripts/python.exe",
+      "command": "C://SEU_CAMINHO//zabbix-mcp-server//.venv//Scripts//python.exe",
       "args": ["-m", "zabbix_mcp.server", "--transport", "stdio"],
-      "cwd": "C:/Users/SEU_USUARIO/zabbix-mcp-server",
+      "cwd": "C://SEU_CAMINHO//zabbix-mcp-server",
       "env": {
-        "ZABBIX_URL": "http://192.168.0.107:8080/api_jsonrpc.php",
-        "ZABBIX_TOKEN": "3752dc4ae3d95027e4ce06e1ed28b2ba57f4e7902357b7eb9e2dae109bf02d45",
+        "ZABBIX_URL": "http://SEU_IP:8080/api_jsonrpc.php",
+        "ZABBIX_TOKEN": "seu_token_aqui",
         "ZABBIX_MCP_MODE": "operacional",
         "ZABBIX_VERIFY_SSL": "false"
       }
@@ -170,17 +170,17 @@ Localizado em `~/.gemini/config/mcp_config.json`:
 {
   "mcpServers": {
     "zabbix-mcp": {
-      "command": "C:\\Users\\Natanael Krindges\\.gemini\\antigravity-ide\\mcp\\zabbix\\.venv\\Scripts\\python.exe",
+      "command": "C:\\SEU_CAMINHO\\zabbix-mcp-server\\.venv\\Scripts\\python.exe",
       "args": [
         "-m",
         "zabbix_mcp.server",
         "--transport",
         "stdio"
       ],
-      "cwd": "C:\\Users\\Natanael Krindges\\.gemini\\antigravity-ide\\mcp\\zabbix",
+      "cwd": "C:\\SEU_CAMINHO\\zabbix-mcp-server",
       "env": {
-        "ZABBIX_URL": "http://192.168.0.107:8080/api_jsonrpc.php",
-        "ZABBIX_TOKEN": "3752dc4ae3d95027e4ce06e1ed28b2ba57f4e7902357b7eb9e2dae109bf02d45",
+        "ZABBIX_URL": "http://SEU_IP:8080/api_jsonrpc.php",
+        "ZABBIX_TOKEN": "seu_token_aqui",
         "ZABBIX_MCP_MODE": "operacional"
       }
     }
@@ -198,7 +198,7 @@ No arquivo `.cursor/mcp.json` na raiz do workspace ou nas configurações de MCP
       "command": "python",
       "args": ["-m", "zabbix_mcp.server", "--transport", "stdio"],
       "env": {
-        "ZABBIX_URL": "http://192.168.0.107:8080/api_jsonrpc.php",
+        "ZABBIX_URL": "http://SEU_IP:8080/api_jsonrpc.php",
         "ZABBIX_TOKEN": "seu_token_aqui",
         "ZABBIX_MCP_MODE": "operacional"
       }
@@ -217,7 +217,7 @@ Nas configurações da extensão ou no arquivo de ferramentas MCP:
       "command": "python",
       "args": ["-m", "zabbix_mcp.server", "--transport", "stdio"],
       "env": {
-        "ZABBIX_URL": "http://192.168.0.107:8080/api_jsonrpc.php",
+        "ZABBIX_URL": "http://SEU_IP:8080/api_jsonrpc.php",
         "ZABBIX_TOKEN": "seu_token_aqui",
         "ZABBIX_MCP_MODE": "operacional"
       }
