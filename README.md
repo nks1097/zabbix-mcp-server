@@ -225,7 +225,9 @@ Nas configurações da extensão ou no arquivo de ferramentas MCP:
   }
 }
 ```
+### VIDEO DE CONFIGURAÇÃO DE FORMA SIMPLIFICADA
 
+ ▶️ **[Clique aqui para assistir ao vídeo completo no Google Drive Assiste em Full Hd (1080P)](https://drive.google.com/file/d/1-_RSSwmVqF_pa1id_GYmm2SyX3dd2Sp_/view?usp=drive_link)**
 ---
 
 ## 🐳 Execução via Docker e Docker Compose
